@@ -8,6 +8,7 @@ public class HashTable {
         Hashtable<Integer, String> hashTable = new Hashtable<>();
         int n = 10;
         long avgTime = 0;
+        // time for each insertion
         for (int i = 0; i < n; i++) {
             String rs = randomString(n);
             long start = System.nanoTime();
